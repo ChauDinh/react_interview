@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/ChauDinh/react_interview/issues"
   },
-  "homepage": "https://github.com/ChauDinh/react_interview#readme"
+  "homepage": "https://github.com/ChauDinh/react_interview#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
