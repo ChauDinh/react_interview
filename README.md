@@ -89,5 +89,44 @@ Red flag: I don't know
 
 Decent answer: Redux is popular tool for storing state in React
 
-Good answer: 
+Good answer: Redux is popular tool for storing state in React. It is build on the sub/pub pattern or Flux and the idea is that we store our state in a big object and use actions to change the states. 
+
+## Explain how Redux works in your own terms.
+
+Red flag: I don't know
+
+Decent/ Good answer: You declare a reducer that takes in an action and a state, when you dispath an action, the state gets updated and React rerenders the DOM with the state change. 
+
+## When do you use Redux?
+
+Red flag: I don't known
+
+Decent answer: Most projects as it's very common that you need some global state that is shared among different components.
+
+Good answer: Most projects as it's very common that you need some global state that is shared among different components but I only wire up components need access to the global state. Only in applications that need to share to global state, it doesn't make sense to use Redux if our applications don't share the states.
+
+## What is a container component?
+
+Red flag: I don't know
+
+Decent answer: A container component is a popular way to separate the JSX from the logic of a component
+
+Good answer: A container component is a popular way to separate the JSX  from the logic of a component but I only use it when my component is doing more than showing some information of passing things through to the view. 
+
+## What is a view component?
+
+Red flag: I don't know
+
+Decent answer: The view component is the dumb part of a component where you simply put the passed in props into JSX.
+
+Good answer: The view component is the dumb part of a component where you simply put the passed in props into JSX, the view is now separate from the logic and some people will argue that this makes it reusable but that is very rarely true. 
+
+## What components make for a good container candidate?
+
+Red flag: I don't know
+
+Decent answer: Almost components except perhaps for non-logic component
+
+Good answer: I try to only use containers on components that are a bit more complex because the container itself makes the component more complex and if we are only making a small component without any extra complexity the cost of the container is greater than simply not using it.
+
 
