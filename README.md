@@ -133,6 +133,6 @@ Good answer: I try to only use containers on components that are a bit more comp
 
 Present the candidate with a skeleton project and explain they are not allowed to use any other libraries than the ones in `package.json`
 
-* Junior: will have to build a Todo list application using Node and the goal is to have a Todo list that allows the users add/delete/edit todos.
+* Junior requires: will have to build a Todo list application using Node and the goal is to have a Todo list that allows the users add/delete/edit todos.
 
-* Senior: will have the junior test and when a todo is clicked there should be a React modal that shows the todo.
+* Additional requires: will have the junior test and when a todo is clicked there should be a React modal that shows the todo.
