@@ -37,7 +37,7 @@ class App extends React.Component {
   return false;
  }
 
- isOpen() {
+ isOpen(item) {
   this.setState(Object.assign({}, this.state, { open: true, clickedItem: item }));
  }
 

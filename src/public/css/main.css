@@ -20,6 +20,7 @@ body {
 .modal {
  padding: 12px;
  background: slateblue;
+ border-radius: 5px;
  width: 320px;
  text-align: center;
 }
