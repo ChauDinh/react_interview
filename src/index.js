@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
  res.sendFile(makeFile("junior.html"));
 });
 
+app.get("/senior", (req, res) => {
+ res.sendFile(makeFile("senior.html"));
+});
+
 const todos = ["fizz", "buzz", "fizzbuzz"];
 
 app.get("/todos", (req, res) => {
