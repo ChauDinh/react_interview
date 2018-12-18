@@ -7,6 +7,8 @@
     "start": "nodemon server.js",
     "webpack:build": "webpack --mode production",
     "webpack:watch": "npx webpack --watch",
+    "css:build": "npx postcss ./src/public/css/main.css -o ./dist/main.css",
+    "css:watch": "npx postcss --watch ./src/public/css/main.css -o ./dist/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,6 +32,9 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-react": "^6.24.1",
+    "postcss": "^7.0.7",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   }
